@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "drone eye",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
