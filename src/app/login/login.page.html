@@ -1,0 +1,60 @@
+
+<ion-content [fullscreen]="true">
+  
+
+  <div class="container">
+    <ion-header >
+      <div class="head">
+       <p> <a  [routerLink]="['/welcome']"><img src="../../assets/icons8-chevron-left-200.png"></a><img src="../../assets/Group 4.png">
+      <span class="spans">SIGN IN</span></p>
+      </div>
+      
+        
+    </ion-header>
+
+   <ion-card>
+     <ion-card-header>
+      
+      
+    
+     </ion-card-header>
+
+     <ion-card-content>
+       
+      <form action="#" method="post">
+  
+
+        <div class="containers">
+          
+          <input class="blur" type="text" placeholder="Email" name="uname" required>
+      
+         
+          <input class="blur" type="password" placeholder="Password" name="psw" required>
+              
+          <button class="btn" type="submit">SIGN IN</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="containers" >
+         
+          <span class="psw">Forgot <a  [routerLink]="['/register']">password?</a></span>
+        </div>
+      </form>
+      
+     </ion-card-content>
+   </ion-card>
+
+   
+
+    
+ 
+
+
+
+  
+  
+  </div>
+ 
+</ion-content>
